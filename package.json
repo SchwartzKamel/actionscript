@@ -1,0 +1,25 @@
+{
+    "name": "actionscript",
+    "displayName": "BigFix ActionScript",
+    "description": "Syntax highlighting for BigFix ActionScript language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "actionscript",
+            "aliases": ["BigFix ActionScript", "actionscript"],
+            "extensions": [".actionscript"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "actionscript",
+            "scopeName": "source.actionscript",
+            "path": "./syntaxes/ActionScript.tmLanguage"
+        }]
+    }
+}
